@@ -26,7 +26,7 @@ function CustomNavbar() {
 			fixed="top"
 			expand="md"
 			className={navColour ? "sticky" : "navbar"}>
-			<Container className="container">
+			<Container className="d-flex">
 				<BootstrapNavbar.Brand href="/" className="d-flex ">
 					<h3 className="img-fluid logo" alt="brand">
 						Beksultan
