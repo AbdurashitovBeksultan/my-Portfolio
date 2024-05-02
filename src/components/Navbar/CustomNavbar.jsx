@@ -26,7 +26,7 @@ function CustomNavbar() {
 			fixed="top"
 			expand="md"
 			className={navColour ? "sticky" : "navbar"}>
-			<Container className="d-flex">
+			<Container className="container">
 				<BootstrapNavbar.Brand href="/" className="d-flex ">
 					<h3 className="img-fluid logo" alt="brand">
 						Beksultan
@@ -79,7 +79,7 @@ function CustomNavbar() {
 						</Nav.Item>
 
 						<Nav.Item className="fork-btn">
-							<Button href="">
+							<Button href="https://github.com/AbdurashitovBeksultan">
 								<FaGithub style={{ fontSize: "1.1em" }} />
 							</Button>
 						</Nav.Item>
