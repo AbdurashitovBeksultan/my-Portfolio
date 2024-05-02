@@ -37,7 +37,7 @@ function CustomNavbar() {
 					onClick={() => {
 						updateExpanded(expand ? false : "expanded");
 					}}>
-						{/* burger */}
+					{/* burger */}
 					<span></span>
 					<span></span>
 					<span></span>
