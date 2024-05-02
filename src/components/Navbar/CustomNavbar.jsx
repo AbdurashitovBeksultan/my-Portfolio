@@ -79,7 +79,7 @@ function CustomNavbar() {
 						</Nav.Item>
 
 						<Nav.Item className="fork-btn">
-							<Button href="https://github.com/AbdurashitovBeksultan">
+							<Button href="">
 								<FaGithub style={{ fontSize: "1.1em" }} />
 							</Button>
 						</Nav.Item>

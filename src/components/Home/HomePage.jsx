@@ -41,7 +41,7 @@ function HomePage() {
 						<ul className="home-about-social-links">
 							<li className="social-icons">
 								<a
-									href="https://github.com/AbdurashitovBeksultan"
+									href=""
 									target="_blank"
 									rel="noreferrer"
 									className="icon-colour  home-social-icons">
