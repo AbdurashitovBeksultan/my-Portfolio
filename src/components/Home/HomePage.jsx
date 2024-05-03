@@ -14,7 +14,7 @@ function HomePage() {
 						<h1 style={{ fontSize: "2.6em" }}>
 							Коротко о<span className="purple"> себе </span>
 						</h1>
-						<p className="home-about-body">
+						<p className="home_about">
 							Я являюсь опытным Frontend, разработчиком со знаниями,
 							<br />
 							<br />

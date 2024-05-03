@@ -11,6 +11,7 @@ import {
 import Resume from "./components/Resume/Resume";
 import Footer from "./components/Footer";
 import CustomNavbar from "./components/Navbar/CustomNavbar";
+import './App.css'
 
 function App() {
 	const [load, upadateLoad] = useState(true);
@@ -24,7 +25,7 @@ function App() {
 	}, []);
 
 	return (
-		<Router>
+		<Router className="rountContain">
 			<div className="App" id={load ? "no-scroll" : "scroll"}>
 				<CustomNavbar />
 				<Routes>

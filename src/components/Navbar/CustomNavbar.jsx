@@ -5,6 +5,8 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
+import './CustomNavbar.css'
+
 
 function CustomNavbar() {
 	const [expand, updateExpanded] = useState(false);
@@ -25,14 +27,21 @@ function CustomNavbar() {
 			expanded={expand}
 			fixed="top"
 			expand="md"
-			className={navColour ? "sticky" : "navbar"}>
+			className="body"
+			// className={navColour ? "sticky" : "navbar"}
+			>
 			<Container className="container">
-				<BootstrapNavbar.Brand href="/" className="d-flex ">
-					<h3 className="img-fluid logo" alt="brand">
+				<BootstrapNavbar.Brand href="/"
+				//  className="d-flex "
+				 >
+					<h3 
+					className="h3"
+					// className="img-fluid logo" alt="brand"
+					>
 						Beksultan
 					</h3>
 				</BootstrapNavbar.Brand>
-				<BootstrapNavbar.Toggle
+				{/* <BootstrapNavbar.Toggle
 					aria-controls="responsive-navbar-nav"
 					onClick={() => {
 						updateExpanded(expand ? false : "expanded");
@@ -41,10 +50,15 @@ function CustomNavbar() {
 					<span></span>
 					<span></span>
 					<span></span>
-					{/* burger */}
-				</BootstrapNavbar.Toggle>
-				<BootstrapNavbar.Collapse id="responsive-navbar-nav">
-					<Nav className="ms-auto d-flex" defaultActiveKey="#home">
+					{/* burger 
+				</BootstrapNavbar.Toggle> */}
+				<BootstrapNavbar.Collapse 
+				// id="responsive-navbar-nav"
+				>
+					<Nav
+					className="navcontain"
+					//  className="ms-auto d-flex"
+					  defaultActiveKey="#home">
 						<Nav.Item>
 							<Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
 								Home
@@ -78,10 +92,12 @@ function CustomNavbar() {
 							</Nav.Link>
 						</Nav.Item>
 
-						<Nav.Item className="fork-btn">
-							<Button href="https://github.com/AbdurashitovBeksultan">
+						<Nav.Item
+						//  className="fork-btn"
+						>
+							 <Button href="https://github.com/AbdurashitovBeksultan">
 								<FaGithub style={{ fontSize: "1.1em" }} />
-							</Button>
+							</Button> 
 						</Nav.Item>
 					</Nav>
 				</BootstrapNavbar.Collapse>

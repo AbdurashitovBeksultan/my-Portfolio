@@ -1,4 +1,22 @@
+
+
+
 .container {
   display: flex;
-
+  
+  
 }
+
+.navcontain {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 800px;
+  justify-content: center;
+  padding-bottom: 230px;
+  padding-top: 30px;
+ } 
+.h3{ 
+
+ }  
+

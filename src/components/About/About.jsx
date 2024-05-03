@@ -1,62 +1,25 @@
-
-
-
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import styled from "styled-components";
 import Card from "./Cards";
+import Skill from "./Skill";
+import './About.css'
 
 function About() {
 	return (
 		<Container fluid className="about-section">
-			{/* <Partic/> */}
-			<Container>
-				<Row style={{ justifyContent: "center", padding: "10px" }}>
-					<Col
-						md={7}
-						style={{
-							justifyContent: "center",
-							paddingTop: "30px",
-							paddingBottom: "50px",
-						}}>
-						<h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-							About<strong className="purple"> Me</strong>
-						</h1>
-						{/* <About /> */}
-            <Card/>
-					</Col>
-					<Col
-						md={5}
-						style={{ paddingTop: "120px", paddingBottom: "50px" }}
-						className="about-img">
-						<img src={laptopImg} alt="about" className="img-fluid" />
-					</Col>
-				</Row>
-				<h1 className="project-heading">
-					My <strong className="purple">Skills</strong>
-					<StyleTextP>
-						Полностью увидеть, какие навыки я имею и выполнять для разработки
-						проектов для вас
-					</StyleTextP>
-				</h1>
-
-				{/* <Techs /> */}
-
-				<h1 className="project-heading">
-					<strong className="purple"> My </strong>
-					Services
-					<StyleTextP>Я предлагаю</StyleTextP>
-				</h1>
-				{/* <Tools /> */}
-				{/* <Git /> */}
-			</Container>
+			<Card />
+			{/* Ваш код */}
+			<div className="containdiv">
+			<h2 className="h1">My Skill</h2>
+			<p className="text">
+				{" "}
+				Полностью увидеть, какие навыки я имею и выполнять для разработки
+				проектов для вас
+			</p>
+			</div>
+			<Skill />
 		</Container>
 	);
 }
 
 export default About;
-
-const StyleTextP = styled.p`
-	font-size: 1.5rem;
-	padding: 1rem;
-`;
