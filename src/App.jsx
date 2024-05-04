@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
@@ -11,7 +11,7 @@ import {
 import Resume from "./components/Resume/Resume";
 import Footer from "./components/Footer";
 import CustomNavbar from "./components/Navbar/CustomNavbar";
-import './App.css'
+import "./App.css";
 
 function App() {
 	const [load, upadateLoad] = useState(true);
