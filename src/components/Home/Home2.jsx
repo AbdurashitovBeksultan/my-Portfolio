@@ -4,10 +4,9 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
 	AiFillGithub,
-	AiOutlineTwitter,
 	AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaTelegram } from "react-icons/fa";
 
 function Home2() {
 	return (
@@ -28,33 +27,13 @@ function Home2() {
 									<br />
 									Git, GitHub, Formik, Tailwind, Webpack, Adaptive и Response,
 									Styled Components, Toastify Figma, NextJs, Typescript, Sass
-									,Photoshop{" "}
+									{" "}
 								</b>
 							</i>
 							<br />
 							<br />
 							Подробнее вы можете узнать на странице :&nbsp;
-							{/* <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i> */}
-							{/* <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i> */}
+							
 						</p>
 					</Col>
 					<Col md={4} className="myAvtar">
@@ -71,7 +50,6 @@ function Home2() {
 							<li className="social-icons">
 								<a
 									href="https://github.com/AbdurashitovBeksultan"
-									target="_blank"
 									rel="noreferrer"
 									className="icon-colour  home-social-icons">
 									<AiFillGithub />
@@ -82,9 +60,16 @@ function Home2() {
 								<a
 									href=""
 									target="_blank"
-									rel="noreferrer"
 									className="icon-colour home-social-icons">
 									<AiFillInstagram />
+								</a>
+							</li>
+							<li className="social-icons">
+								<a
+									href=""
+									target="_blank"
+									className="icon-colour home-social-icons">
+									<FaTelegram/>
 								</a>
 							</li>
 						</ul>

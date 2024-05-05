@@ -78,8 +78,7 @@ button:focus {
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
 }
-/* g0770 744 547
-n0703 044 105 */
+
 .navbar {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
@@ -211,13 +210,9 @@ n0703 044 105 */
 /* --------- */
 .wave {
   animation-name: wave-animation;
-  /* Refers to the name of your @keyframes element below */
   animation-duration: 2.1s;
-  /* Change to speed up or slow down */
   animation-iteration-count: infinite;
-  /* Never stop waving :) */
   transform-origin: 70% 70%;
-  /* Pivot around the bottom-left palm */
   display: inline-block;
 }
 
@@ -230,7 +225,6 @@ n0703 044 105 */
     transform: rotate(14deg);
   }
 
-  /* The following five values can be played with to make the waving more or less extreme */
   20% {
     transform: rotate(-8deg);
   }
@@ -251,7 +245,6 @@ n0703 044 105 */
     transform: rotate(0deg);
   }
 
-  /* Reset for the last half to pause */
   100% {
     transform: rotate(0deg);
   }
@@ -419,7 +412,7 @@ n0703 044 105 */
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: rgb(41, 24, 75);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important;
@@ -457,9 +450,7 @@ n0703 044 105 */
   padding: 0 !important;
 }
 
-.blockquote-footer {
-  color: #a588c0 !important;
-}
+
 
 /* --------- */
 /* Projects */

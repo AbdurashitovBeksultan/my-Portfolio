@@ -9,7 +9,6 @@ function Type() {
           "Frontend Developer",
           "Frontend Разработчик",
           "Beksultan Frontend Developer",
-          // "Open Source Contributor",
         ],
         autoStart: true,
         loop: true,
