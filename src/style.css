@@ -8,6 +8,7 @@ html {
       rgba(12, 10, 22, 0.863));
 
   --imp-text-color: #c770f0;
+  
 }
 
 .purple {
@@ -77,12 +78,14 @@ button:focus {
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
 }
-
+/* g0770 744 547
+n0703 044 105 */
 .navbar {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
+  background:#1c09c4
 }
 
 .navbar-toggler {
