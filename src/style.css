@@ -8,7 +8,7 @@ html {
       rgba(12, 10, 22, 0.863));
 
   --imp-text-color: #c770f0;
-  
+
 }
 
 .purple {
@@ -79,12 +79,53 @@ button:focus {
   backdrop-filter: blur(15px) !important;
 }
 
+.h1Text {
+  color: rgb(190, 186, 186);
+  animation: h1Text-animation 5s linear infinite;
+}
+
+@keyframes h1Text-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(14deg);
+  }
+
+  20% {
+    transform: rotate(-8deg);
+  }
+
+  30% {
+    transform: rotate(14deg);
+  }
+
+  40% {
+    transform: rotate(-4deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  60% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+
 .navbar {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
-  background:#1c09c4
+  background: #1c09c4
 }
 
 .navbar-toggler {
@@ -416,6 +457,7 @@ button:focus {
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important;
+  align-items: center;
 }
 
 .footer-copywright {
