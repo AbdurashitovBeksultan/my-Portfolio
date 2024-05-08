@@ -125,7 +125,7 @@ button:focus {
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
-  background: #1c09c4
+  background: linear-gradient(to right, #2b3858, #644022)
 }
 
 .navbar-toggler {
